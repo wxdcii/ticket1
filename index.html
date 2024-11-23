@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Ticket Booking</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* General Reset */
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(
+                    rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.7)
+                ),
+                url('./images/home-bg.webp') center no-repeat;
+            background-size: cover;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        nav a {
+            color: #ffcc00;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 20px;
+        }
+
+        .hero .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background: #ffcc00;
+            color: #000;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        .hero .button:hover {
+            background: #fff;
+            color: #ffcc00;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .feature {
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .feature img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .feature h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 1rem;
+            color: #ccc;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            padding: 20px;
+            color: #ffcc00;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sports Ticket Booking</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+        
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Your Gateway to Exciting Sports Events</h2>
+        <p>Book tickets for your favorite events quickly and easily. Stay connected with the latest sports action in your city.</p>
+        <a class="button" href="events.html">Browse Events</a>
+        <a class="button" href="login.html">Login</a>
+    </div>
+
+    <section class="features">
+        <div class="feature">
+            <img src="booking.png"Fast Booking style="width: 150px; ">
+            <h3>Fast Booking</h3>
+            <p>Experience quick and hassle-free ticket booking in just a few clicks.</p>
+        </div>
+        <div class="feature">
+            <img src="payment.png" alt="Secure Payments"style="width: 150px;">
+            <h3>Secure Payments</h3>
+            <p>Your transactions are safe with our advanced security protocols.</p>
+        </div>
+        <div class="feature">
+            <img src="seat.png" alt="Best Seats"style="width: 150px;">
+            <h3>Best Seats</h3>
+            <p>Choose your preferred seating and enjoy the game from the best spot.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sports Ticket Booking System</p>
+    </footer>
+</body>
+</html>
